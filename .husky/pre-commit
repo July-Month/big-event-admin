@@ -1,4 +1,6 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-pnpm lint-staged
+# pnpm lint 全量检查，耗时问题，历史代码问题
+# 只检查修改,提交的文件，历史提交过的不检查
+pnpm lint-staged 

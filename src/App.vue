@@ -1,11 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
-
-// const obj = {
-//   name: 'sd',
-//   age: 18
-// }
 </script>
 
 <template>
